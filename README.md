@@ -1,6 +1,7 @@
 # voice_control_photo_album
 
-The following web service allows the user to upload pictures in a webpage. Then, using voice / text, the user can find pictures related to the user's request.<br>
+The following web service allows the user to upload pictures in a webpage. <br>
+Then, using voice / text, the user can find pictures related to the user's request.<br>
 
 user: <b>"Show me pictures of cats"</b><br>
 web service: <b> "Here are the following pictures you have uploaded that has cats" </b><br>
