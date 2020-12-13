@@ -9,7 +9,7 @@ from requests_aws4auth import AWS4Auth
 def lambda_handler(event, context):
     
     # # Use rekognition to detect labels
-    
+    print("CODE TESTER")
     s3_info = event['Records'][0]['s3']
     bucket_name = s3_info['bucket']['name']
     key_name = s3_info['object']['key']
