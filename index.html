@@ -89,7 +89,7 @@ function UploadFile(){
     console.log("DEBUG: encoded STRING",encodedStr)
 
 
-    var url = "URL___"
+    var url = "https://u808fd3im2.execute-api.us-east-1.amazonaws.com/prod"
     payload={
       imagedata: encodedStr,
       name: name,
@@ -133,7 +133,7 @@ function UploadFile(){
 }
 
   function SendMessageBot(term){
-    var url = "URL___"
+    var url = "https://search-imagedb-jc2y46m33wkjn23n5ttvsi6lsm.us-east-1.es.amazonaws.com"
     payload={
       text: term,
     };
